@@ -17,7 +17,7 @@ using Newtonsoft.Json;
 
 namespace InstaSharper.API
 {
-    internal class InstaApi : IInstaApi
+    public class InstaApi : IInstaApi
     {
         private readonly IHttpRequestProcessor _httpRequestProcessor;
         private readonly IInstaLogger _logger;
