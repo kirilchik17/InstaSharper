@@ -8,6 +8,7 @@ namespace InstaSharper.Classes.Android.DeviceInfo
     {
         private static readonly List<string> DevicesNames = new List<string>
         {
+            "galaxy-s20-fe"
             AndroidDevices.LG_OPTIMUS_G,
             AndroidDevices.NEXUS7_GEN2,
             AndroidDevices.HTC10,
@@ -44,6 +45,27 @@ namespace InstaSharper.Classes.Android.DeviceInfo
                         PhoneGuid = new Guid("5b971484-ad0f-41fa-8886-313e9e91f5b9")
                     }
                 },
+            {
+                "galaxy-s20-fe"
+                new AndroidDevice
+                {
+                    AndroidBoardName = "exynos990",
+                    AndroidBootloader = "G781BXXU1BTK3",
+                    DeviceBrand = "samsung",
+                    DeviceModel = "Samsung Galaxy S20 FE",
+                    DeviceModelBoot = "s20fe",
+                    DeviceModelIdentifier = "RP1A.200720.012.G781BXXU1BTK3",
+                    FirmwareBrand = "Samsung Galaxy S20 FE",
+                    FirmwareFingerprint = "samsung/f2q/f2q:11/RP1A.200720.012/G781BXXU1BTK3:user/release-keys",
+                    FirmwareTags = "release-keys",
+                    FirmwareType = "user",
+                    HardwareManufacturer = "samsung",
+                    HardwareModel = "SM-G781B",
+                    DeviceGuid = new Guid("6e5109f7-4ff1-4c4a-a9e2-1ad3f85b70c2"),
+                    PhoneGuid = new Guid("72c12533-32ef-4a8f-bc4a-6474c4b80175"),
+                    DeviceId = ApiRequestMessage.GenerateDeviceIdFromGuid(new Guid("6e5109f7-4ff1-4c4a-a9e2-1ad3f85b70c2"))
+                }
+            },
                 {
                     "nexus7gen2",
                     new AndroidDevice
